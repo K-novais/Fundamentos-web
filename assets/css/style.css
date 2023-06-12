@@ -248,3 +248,98 @@ footer {
     font-size: 0.75rem;
     color: var(--cor-fonte-by);
 }
+/*Página de Contato*/
+
+/* Define configurações específicas para a linha horizontal */
+hr {
+    margin: 1.25rem;
+}
+
+/* Define configurações específicas do elemento main, id contato */
+#contato {
+    width: 80vw;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+/* Define configurações específicas do elemento section, id formulario_mensagem */
+#formulario_mensagem {
+    width: 60vw;
+}
+
+/* Define configurações específicas do elemento section, id meu_video */
+#formulario_buscacep {
+    width: 40vw;
+}
+
+/* Define configurações específicas do elemento label */
+label {
+    font-family: var(--lato-roboto);
+    font-size: 1.15rem;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+/* Define configurações específicas dos elementos dos formulários */
+input,
+textarea,
+button {
+    font-family: var(--lato-cursiva);
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    font-size: 1.25rem;
+}
+
+/* Define configurações específicas dos elementos input e textarea */
+input,
+textarea {
+    border: 1px solid orange;
+}
+
+/* Define configurações da propriedade placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: var(--cor-placeholder-effect);
+}
+
+/* Define configurações específicas da propriedade focus */
+input:focus,
+textarea:focus {
+    /* Define as propriedades da borda do elemento selecionado */
+    outline: 1px solid orangered; 
+}
+
+/* Define configurações específicas do elemento button */
+button {
+    
+    background-color: var(--background-nav);
+    color: var(--cor-fonte-nav);
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid var(--cor-button-hover)
+}
+
+/* Define configurações específicas da propriedade hover do elemento button */
+button:hover {
+    background-color: var(--cor-button-hover);
+    color: var(--cor-fonte-button-hover);
+}
+
+/* Define configurações específicas da Classe campos-form */
+.campos-form {
+    margin-bottom: 1rem;
+}
+
+/* Define configurações específicas dos elementos de mensagem
+de validação dos campos */
+#txtNome,
+#txtEmail,
+#txtMensagem,
+#txtCep {
+    font-size: 1rem;
+    padding: 0.25rem 0;
+}
